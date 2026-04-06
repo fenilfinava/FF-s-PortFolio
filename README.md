@@ -1,21 +1,22 @@
-# Kirtan Portfolio
+# Fenil Finava's Portfolio
 
-I am Kirtan Ugreja, a developer focused on building clean, interactive, and thoughtful web experiences.
+I am Fenil Finava, a first-year Computer Engineering student passionate about learning and building reliable, clean, and interactive web experiences.
 
-This portfolio is a snapshot of who I am, what I build, and how I approach design and development.
+This portfolio is a snapshot of who I am, what I build, and how I approach software development.
 
 ## About Me
 
+- First-year Computer Engineering student
 - Passionate about frontend development and user experience
 - Interested in smooth interactions, motion, and modern UI systems
-- Focused on writing maintainable code with strong visual storytelling
+- Focused on writing maintainable code and solving real-world problems
 
 ## What This Portfolio Highlights
 
-- My introduction and background
+- My introduction and academic background
 - Skills and technologies I work with
-- Work experience and practical impact
-- Selected projects and case-study style summaries
+- Selected projects including PathFinder Bot, EduTrack, and BP Watch
+- Work experience and technical journey
 - Contact details for collaboration opportunities
 
 ## Tech Stack Used in This Portfolio
@@ -39,4 +40,4 @@ The site is organized into:
 
 ## Purpose
 
-This repository represents my personal brand on the web and serves as a central place to share my work, skills, and professional journey.
+This repository represents my personal brand on the web and serves as a central place to share my work, skills, and professional journey as an aspiring developer.
