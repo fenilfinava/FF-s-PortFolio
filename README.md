@@ -27,7 +27,7 @@ This portfolio is a snapshot of who I am, what I build, and how I approach softw
 - React 19
 - TypeScript 5
 - GSAP
-- 
+- Lenis
 
 ## Portfolio Structure
 
