@@ -1,5 +1,7 @@
 # Fenil Finava's Portfolio
 
+**Live Preview:** [fenilfinava.vercel.app](https://fenilfinava.vercel.app/)
+
 I am Fenil Finava, a first-year Computer Engineering student passionate about learning and building reliable, clean, and interactive web experiences.
 
 This portfolio is a snapshot of who I am, what I build, and how I approach software development.
@@ -25,7 +27,7 @@ This portfolio is a snapshot of who I am, what I build, and how I approach softw
 - React 19
 - TypeScript 5
 - GSAP
-- Lenis
+- 
 
 ## Portfolio Structure
 
