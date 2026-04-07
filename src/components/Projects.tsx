@@ -13,10 +13,10 @@ const projects = [
         description:
             "Developed an autonomous line following robot using 8-array IR sensors and Arduino. Implemented PID control algorithm in C/C++ to achieve smooth, stable, and accurate path tracking with real-time correction.",
         tags: ["Arduino", "C", "C++", "PID Control", "IR Sensors", "Embedded Systems"],
-        github: "#",
+        github: "https://github.com/fenilfinava/PathFinder-Bot.git",
         live: "",
         icon: "🤖",
-        note: "GitHub repo coming soon",
+        note: "",
     },
     {
         number: "02",
