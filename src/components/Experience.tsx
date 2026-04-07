@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const experiences = [
     {
-        date: "2024 — 2029",
+        date: "2025 — 2029",
         role: "B.Tech Computer Science and Engineering",
         company: "CHARUSAT University",
         companyUrl: "https://charusat.ac.in",
@@ -16,7 +16,7 @@ const experiences = [
             "Currently in 1st year, pursuing Computer Science and Engineering with a passion for software development, embedded systems, and emerging technologies. Dreaming big and building every day.",
     },
     {
-        date: "2025",
+        date: "2026",
         role: "Full-Stack Developer (Personal Project)",
         company: "EduTrack",
         companyUrl: "https://edu-track-umber.vercel.app",
@@ -24,7 +24,7 @@ const experiences = [
             "Built EduTrack — a full-stack student project tracking platform with GitHub integration, role-based dashboards, and real-time monitoring. Deployed on Vercel with Supabase backend.",
     },
     {
-        date: "2025",
+        date: "2026",
         role: "Embedded Systems Developer (SSIP Project)",
         company: "BP Measurement Watch Using ESP32",
         companyUrl: "#",
