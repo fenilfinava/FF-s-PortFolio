@@ -1145,10 +1145,6 @@ button {
   position: relative;
 }
 
-.project-card--ssip .project-card__visual {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent), 0 8px 40px rgba(125, 48, 232, 0.15);
-}
 
 .project-card--ssip .project-card__number {
   -webkit-text-stroke-color: var(--accent);
