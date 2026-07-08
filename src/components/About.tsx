@@ -122,7 +122,7 @@ export default function About() {
                 <p className="about__text">
                     <span className="about__text-line">
                         <span className="about__text-inner">
-                            I&apos;m Fenil Finava — a 1st year Computer Science and Engineering student at CHARUSAT
+                            I&apos;m Fenil Finava — a 2nd year Computer Science and Engineering student at CHARUSAT
                         </span>
                     </span>
                     <span className="about__text-line">

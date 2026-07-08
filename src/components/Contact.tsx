@@ -87,7 +87,7 @@ export default function Contact() {
                 <span>Together.</span>
             </h2>
             <p className="contact__subtitle">
-                I&apos;m a 1st year CS student open to internships, collabs, and exciting projects.
+                I&apos;m a 2nd year CS student open to internships, collabs, and exciting projects.
                 Got an idea? Let&apos;s build it together!
             </p>
 

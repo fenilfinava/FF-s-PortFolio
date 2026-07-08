@@ -13,7 +13,7 @@ const experiences = [
         company: "CHARUSAT University",
         companyUrl: "https://charusat.ac.in",
         description:
-            "Currently in 1st year, pursuing Computer Science and Engineering with a passion for software development, embedded systems, and emerging technologies. Dreaming big and building every day.",
+            "Currently in 2nd year, pursuing Computer Science and Engineering with a passion for software development, embedded systems, and emerging technologies. Dreaming big and building every day.",
     },
     {
         date: "2026",

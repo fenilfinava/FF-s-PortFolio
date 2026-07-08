@@ -5,7 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
     title: "Fenil Finava — Programming Enthusiast & Aspiring Developer",
     description:
-        "Portfolio of Fenil Finava — 1st year Computer Science and Engineering student at CHARUSAT. Building autonomous robots, full-stack web platforms, and embedded systems. Learning today, building tomorrow.",
+        "Portfolio of Fenil Finava — 2nd year Computer Science and Engineering student at CHARUSAT. Building autonomous robots, full-stack web platforms, and embedded systems. Learning today, building tomorrow.",
     keywords: [
         "Fenil Finava",
         "Programming Enthusiast",
