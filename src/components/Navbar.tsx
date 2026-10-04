@@ -52,7 +52,7 @@ export default function Navbar() {
                 F<span>.</span>F
             </div>
             <ul className="navbar__links">
-                {["about", "skills", "projects", "studio", "experience", "contact"].map(
+                {["about", "skills", "projects", "experience", "contact"].map(
                     (section) => (
                         <li
                             key={section}
