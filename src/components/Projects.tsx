@@ -38,7 +38,7 @@ const projects = [
             "An AI-powered digital assistant for Indian farmers built for Smart India Hackathon. Features multilingual voice support, crop disease detection via Gemini AI, smart crop advisory, and automated farming alerts.",
         tags: ["Next.js", "React", "Supabase", "Gemini AI", "Tailwind CSS"],
         github: "https://github.com/fenilfinava/SIH.git",
-        live: "",
+        live: "https://krushisarathi.vercel.app/",
         icon: "🌾",
         note: "",
         ssip: false,
@@ -55,7 +55,7 @@ function ProjectIllustration({ number }: { number: string }) {
                     src="/pathfinder.jpg" 
                     alt="PathFinder Bot" 
                     fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: 'contain', padding: '16px' }}
                     className="project-image"
                 />
             );
@@ -65,7 +65,7 @@ function ProjectIllustration({ number }: { number: string }) {
                     src="/ssip.png" 
                     alt="Hypertension Wristband SSIP" 
                     fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: 'contain', padding: '16px' }}
                     className="project-image"
                 />
             );
@@ -75,7 +75,7 @@ function ProjectIllustration({ number }: { number: string }) {
                     src="/krushi-sarathi.jpg" 
                     alt="Krushi Sarathi SIH" 
                     fill
-                    style={{ objectFit: 'cover' }}
+                    style={{ objectFit: 'contain', padding: '16px' }}
                     className="project-image"
                 />
             );
@@ -83,7 +83,6 @@ function ProjectIllustration({ number }: { number: string }) {
             return null;
     }
 }
-
 
 export default function Projects() {
     const sectionRef = useRef<HTMLElement>(null);
@@ -166,15 +165,28 @@ export default function Projects() {
                                     </span>
                                 ))}
                             </div>
-                            <a
-                                href={project.github}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="project-card__link"
-                            >
-                                View on GitHub{" "}
-                                <span className="project-card__link-arrow">→</span>
-                            </a>
+                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
+                                {project.live && (
+                                    <a
+                                        href={project.live}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="project-card__link"
+                                    >
+                                        Live Preview{" "}
+                                        <span className="project-card__link-arrow">↗</span>
+                                    </a>
+                                )}
+                                <a
+                                    href={project.github}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="project-card__link"
+                                >
+                                    View on GitHub{" "}
+                                    <span className="project-card__link-arrow">→</span>
+                                </a>
+                            </div>
                         </div>
 
                         <div className="project-card__visual">
