@@ -23,6 +23,14 @@ const experiences = [
         description:
             "Developing a wearable blood pressure measurement watch using ESP32. Selected for SSIP (Student Startup and Innovation Policy) — currently in progress.",
     },
+    {
+        date: "2026",
+        role: "Full Stack Developer (SIH)",
+        company: "Krushi Sarathi",
+        companyUrl: "https://github.com/fenilfinava/SIH.git",
+        description:
+            "Built an AI-powered digital assistant for Indian farmers during the Smart India Hackathon. Integrated multilingual voice support and Gemini AI for crop disease detection.",
+    },
 ];
 
 export default function Experience() {

@@ -162,7 +162,7 @@ export default function About() {
 
                 <div className="about__stats">
                     <div className="about__stat">
-                        <div className="about__stat-number">2</div>
+                        <div className="about__stat-number">3</div>
                         <div className="about__stat-label">Projects</div>
                     </div>
                     <div className="about__stat">
