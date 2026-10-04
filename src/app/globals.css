@@ -1451,26 +1451,17 @@ button {
 
 @media (max-width: 640px) {
   .navbar {
-    padding: var(--space-sm) var(--space-md);
+    padding: var(--space-md);
     flex-direction: column;
-    gap: var(--space-sm);
+    gap: var(--space-md);
     height: auto;
-    padding-bottom: var(--space-sm);
   }
 
   .navbar__links {
     width: 100%;
-    overflow-x: auto;
-    padding-bottom: 4px;
-    justify-content: flex-start;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    /* Firefox */
-  }
-
-  .navbar__links::-webkit-scrollbar {
-    display: none;
-    /* Chrome/Safari */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
   }
 
   .hero {
@@ -1479,6 +1470,12 @@ button {
 
   .hero__name {
     line-height: 1;
+    font-size: clamp(38px, 10vw, 120px);
+    letter-spacing: -1px;
+  }
+
+  .hero__label {
+    font-size: 13px;
   }
 
   .hero__scroll-indicator {
@@ -1486,11 +1483,11 @@ button {
   }
 
   .section {
-    padding: var(--space-2xl) var(--space-md);
+    padding: var(--space-xl) var(--space-md);
   }
 
   .contact {
-    padding: var(--space-3xl) var(--space-md);
+    padding: var(--space-2xl) var(--space-md);
   }
 
   .contact__links {
@@ -1505,12 +1502,12 @@ button {
   }
 
   .project-card__number {
-    font-size: 80px;
+    font-size: 64px;
     margin-bottom: var(--space-xs);
   }
 
   .project-card__visual {
-    height: 240px;
+    height: 280px;
   }
 
   .about__stats {
