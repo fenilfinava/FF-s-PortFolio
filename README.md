@@ -16,7 +16,7 @@ This portfolio is a snapshot of who I am, what I build, and how I approach softw
 ## What This Portfolio Highlights
 
 - My academic background, skills, and tools I use
-- Selected projects including PathFinder Bot and EduTrack
+- Selected projects including PathFinder Bot, Hypertension Wristband, and Krushi Sarathi (SIH)
 - Work experience and technical journey
 - Direct contact details for freelance collaboration (WhatsApp, Email, GitHub)
 

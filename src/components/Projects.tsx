@@ -31,6 +31,18 @@ const projects = [
         note: "",
         ssip: true,
     },
+    {
+        number: "03",
+        title: "Krushi Sarathi (SIH)",
+        description:
+            "An AI-powered digital assistant for Indian farmers built for Smart India Hackathon. Features multilingual voice support, crop disease detection via Gemini AI, smart crop advisory, and automated farming alerts.",
+        tags: ["Next.js", "React", "Supabase", "Gemini AI", "Tailwind CSS"],
+        github: "https://github.com/fenilfinava/SIH.git",
+        live: "",
+        icon: "🌾",
+        note: "",
+        ssip: false,
+    },
 ];
 
 function ProjectIllustration({ number }: { number: string }) {
@@ -99,6 +111,28 @@ function ProjectIllustration({ number }: { number: string }) {
 
                     {/* Crown / side button */}
                     <rect x="140" y="92" width="6" height="16" rx="3" fill="currentColor" fillOpacity="0.2" />
+                </svg>
+            );
+        case "03":
+            return (
+                <svg className="project-ill" viewBox="0 0 200 200" style={{ width: '80%', height: 'auto', stroke: 'currentColor', strokeWidth: 1.5, fill: 'none' }}>
+                    {/* Plant/Leaf shape */}
+                    <path d="M100 160 Q100 100 140 60 Q160 80 140 120 Q120 140 100 160" fill="currentColor" fillOpacity="0.1" className="ill-pulse-circle" />
+                    <path d="M100 160 Q100 110 60 70 Q40 90 60 130 Q80 150 100 160" fill="currentColor" fillOpacity="0.05" />
+                    
+                    {/* Stem */}
+                    <path d="M100 160 Q100 100 100 50" />
+                    
+                    {/* Data nodes / AI scanning points */}
+                    <circle cx="120" cy="90" r="3" fill="currentColor" className="ill-delay-1" />
+                    <circle cx="80" cy="110" r="3" fill="currentColor" className="ill-delay-2" />
+                    <circle cx="100" cy="70" r="3" fill="currentColor" className="ill-delay-3" />
+                    
+                    {/* Scanning frame */}
+                    <rect x="50" y="40" width="100" height="130" rx="8" strokeDasharray="5,5" strokeOpacity="0.3" />
+                    
+                    {/* Scanning laser line */}
+                    <line x1="40" y1="80" x2="160" y2="80" stroke="currentColor" strokeWidth="2" strokeOpacity="0.5" className="ill-pulse-wave" />
                 </svg>
             );
 
